@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;600&family=Roboto&display=swap");
+body {
+  background-color: #fff;
+  min-height: 70vh;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3d4878;
+  font-family: 'MuseoModerno', cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    min-height: 100vh;
+  }
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #f2f3f7;
+  -webkit-box-shadow: 0px 0px 100px 20px #7e7e7e40;
+          box-shadow: 0px 0px 100px 20px #7e7e7e40;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__title {
+  padding: 1.7rem 1.2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+span {
+  color: #f25a5c;
+}
+
+@media only screen and (min-width: 500px) {
+  .heading__title {
+    font-size: 2rem;
+  }
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form__input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.2rem 0rem;
+  border: solid 3px transparent;
+  border-bottom: solid 3px #3d4878;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: rgba(73, 74, 75, 0.7);
+  margin-bottom: 40px;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .form__input {
+    width: 60%;
+  }
+}
+
+.button_add {
+  padding: 0;
+  border: none;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: #3d4878;
+}
+
+.button_add span {
+  background: #f2f3f7;
+  display: block;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #3d4878;
+}
+
+.button_add:active, .button:focus {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  padding-bottom: 0px;
+  outline: 0;
+}
+
+.button_add:hover {
+  cursor: pointer;
+}
+
+.toDoList {
+  text-align: left;
+}
+
+.toDoList li {
+  position: relative;
+  padding: 0.5rem 3.5rem;
+  color: #4c4d4d;
+}
+
+.toDoList li:hover {
+  -webkit-text-decoration: line-through #f25a5c;
+          text-decoration: line-through #f25a5c;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
