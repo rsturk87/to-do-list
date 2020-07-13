@@ -1,2 +1,2 @@
-# To-Do List made with HTML / CSS / JavaScript
+# To-Do List [ HTML / CSS / JavaScript ]
 ![](todolist.jpg)
